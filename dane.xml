@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE dane SYSTEM "dane.dtd">
+<dane>
+	<ryby>
+		<rodzina nazwa="Bocjowate">
+			<ryba>
+				<gatunek>Bocja indochińska</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>23</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>364</wlk_akwarium>
+					<temp_min>21</temp_min>
+					<temp_max>26</temp_max>
+					<kwaśność_min>6.5</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Bocja wspaniała</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>25</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>648</wlk_akwarium>
+					<temp_min>24</temp_min>
+					<temp_max>30</temp_max>
+					<kwaśność_min>5.0</kwaśność_min>
+					<kwaśność_max>7.0</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Bocja mysia</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>8</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>150</wlk_akwarium>
+					<temp_min>23</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>6.0</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+		</rodzina>
+		
+		<rodzina nazwa="Guramiowate">
+			<ryba>
+				<gatunek>Bojownik bezbronny</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>6</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>30</wlk_akwarium>
+					<temp_min>24</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>5.5</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Gurami całujący</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>25</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>300</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>30</temp_max>
+					<kwaśność_min>6.0</kwaśność_min>
+					<kwaśność_max>8.0</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Gurami czekoladowe</gatunek>
+				<pochodzenie>Azja</pochodzenie>
+				<śr_długość>4</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>60</wlk_akwarium>
+					<temp_min>23</temp_min>
+					<temp_max>30</temp_max>
+					<kwaśność_min>4.0</kwaśność_min>
+					<kwaśność_max>7.0</kwaśność_max>
+				</woda>
+			</ryba>
+		</rodzina>
+		
+		<rodzina nazwa="Pielęgnicowate">
+			<ryba>
+				<gatunek>Akara błękitna</gatunek>
+				<pochodzenie>Ameryka Południowa</pochodzenie>
+				<śr_długość>15</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>240</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>6.5</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Akarka paskowana</gatunek>
+				<pochodzenie>Ameryka Południowa</pochodzenie>
+				<śr_długość>7</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>54</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>26</temp_max>
+					<kwaśność_min>6.0</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Barwiak szmaragdowy</gatunek>
+				<pochodzenie>Afryka</pochodzenie>
+				<śr_długość>8</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>70</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>26</temp_max>
+					<kwaśność_min>5.0</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Czerwieniak dwuplamy</gatunek>
+				<pochodzenie>Afryka</pochodzenie>
+				<śr_długość>12</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>110</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>26</temp_max>
+					<kwaśność_min>5.0</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+		</rodzina>
+		
+		<rodzina nazwa="Tęczankowate">
+			<ryba>
+				<gatunek>Modrook Gertrudy</gatunek>
+				<pochodzenie>Nowa Gwinea</pochodzenie>
+				<śr_długość>4</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>40</wlk_akwarium>
+					<temp_min>21</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>4.6</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Tęczanka Boesemana</gatunek>
+				<pochodzenie>Nowa Gwinea</pochodzenie>
+				<śr_długość>11</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>110</wlk_akwarium>
+					<temp_min>25</temp_min>
+					<temp_max>29</temp_max>
+					<kwaśność_min>6.5</kwaśność_min>
+					<kwaśność_max>8.0</kwaśność_max>
+				</woda>
+			</ryba>
+			
+			<ryba>
+				<gatunek>Tęczanka Czerwona</gatunek>
+				<pochodzenie>Nowa Gwinea</pochodzenie>
+				<śr_długość>15</śr_długość>
+				<woda opis="">
+					<wlk_akwarium>112</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>26</temp_max>
+					<kwaśność_min>7.0</kwaśność_min>
+					<kwaśność_max>8.0</kwaśność_max>
+				</woda>
+			</ryba>
+		</rodzina>
+	</ryby>
+	
+	<rośliny>
+		<roślina>
+			<nazwa>Anubias barteri</nazwa>
+			<wzrost>wolny</wzrost>
+			<woda opis="">
+					<wlk_akwarium>100</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>6.0</kwaśność_min>
+					<kwaśność_max>8.0</kwaśność_max>
+			</woda>
+		</roślina>
+		
+		<roślina>
+			<nazwa>Aegagropila linnaei</nazwa>
+			<wzrost>średni</wzrost>
+			<woda opis="">
+					<wlk_akwarium>80</wlk_akwarium>
+					<temp_min>18</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>6.0</kwaśność_min>
+					<kwaśność_max>8.5</kwaśność_max>
+			</woda>
+		</roślina>
+		
+		<roślina>
+			<nazwa>Nymphaea lotus</nazwa>
+			<wzrost>wolny</wzrost>
+			<woda opis="">
+					<wlk_akwarium>200</wlk_akwarium>
+					<temp_min>22</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>5.5</kwaśność_min>
+					<kwaśność_max>7.5</kwaśność_max>
+			</woda>
+		</roślina>
+		
+		<roślina>
+			<nazwa>Eleocharis parvula</nazwa>
+			<wzrost>szybki</wzrost>
+			<woda opis="">
+					<wlk_akwarium>60</wlk_akwarium>
+					<temp_min>19</temp_min>
+					<temp_max>28</temp_max>
+					<kwaśność_min>5.5</kwaśność_min>
+					<kwaśność_max>8.0</kwaśność_max>
+			</woda>
+		</roślina>
+	</rośliny>
+	
+	<akwaria>
+		<akwarium>
+			<nazwa>AquaPanel</nazwa>
+			<pojemność>200</pojemność>
+			<cena>359.50</cena>
+		</akwarium>
+		<akwarium>
+			<nazwa>AquaProstokąt</nazwa>
+			<pojemność>96</pojemność>
+			<cena>129.50</cena>
+		</akwarium>
+		<akwarium>
+			<nazwa>AquaĆwierć</nazwa>
+			<pojemność>350</pojemność>
+			<cena>799.00</cena>
+		</akwarium>
+		<akwarium>
+			<nazwa>AquaKlasyk</nazwa>
+			<pojemność>25</pojemność>
+			<cena>39.50</cena>
+		</akwarium>
+		<akwarium>
+			<nazwa>AquaBlok</nazwa>
+			<pojemność>45</pojemność>
+			<cena>59.50</cena>
+		</akwarium>
+	</akwaria>
+	
+	<choroby>
+		<choroba>
+			<nazwa>Martwica płetw</nazwa>
+			<typ>Niezakaźna</typ>
+			<objawy>
+				<objaw>Białe plamy/nalot na płetwie</objaw>
+				<objaw>Gnicie płetw</objaw>
+				<objaw>Postrzępione płetwy</objaw>				
+			</objawy>
+		</choroba>
+		<choroba>
+			<nazwa>Oodinioza</nazwa>
+			<typ>Zakaźna</typ>
+			<objawy>
+				<objaw>Nalot na skórze</objaw>
+				<objaw>Postrzępiona skóra</objaw>
+				<objaw>Brak apetytu</objaw>				
+			</objawy>
+		</choroba>
+		<choroba>
+			<nazwa>Ospa rybia</nazwa>
+			<typ>Zakaźna</typ>
+			<objawy>
+				<objaw>Białe kropki na skórze</objaw>
+				<objaw>Obrzęk skrzeli</objaw>
+				<objaw>Ubytki ciała</objaw>
+				<objaw>Brak apetytu</objaw>				
+			</objawy>
+		</choroba>
+		<choroba>
+			<nazwa>Puchlina wodna</nazwa>
+			<typ>Niezakaźna</typ>
+			<objawy>
+				<objaw>Nastroszone łuski</objaw>
+				<objaw>Wytrzesz oczu</objaw>
+				<objaw>Trudności z oddychaniem</objaw>			
+			</objawy>
+		</choroba>
+	</choroby>
+
+</dane>
