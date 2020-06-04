@@ -1,0 +1,22 @@
+<!ENTITY % dane_wody "wlk_akwarium, temp_min, temp_max, kwaśność_min, kwaśność_max">
+<!ELEMENT dane (ryby, rośliny, akwaria, choroby)>
+<!ELEMENT ryby (rodzina*)>
+<!ELEMENT rodzina (ryba*)>
+<!ATTLIST rodzina nazwa CDATA #REQUIRED>
+<!ELEMENT ryba (gatunek, pochodzenie, śr_długość, woda)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT pochodzenie (#PCDATA)>
+<!ELEMENT śr_długość (#PCDATA)>
+<!ELEMENT woda (%dane_wody;)>
+<!ATTLIST woda opis CDATA #IMPLIED>
+<!ELEMENT rośliny (roślina*)>
+<!ELEMENT roślina (nazwa, wzrost, woda)>
+<!ELEMENT wzrost (#PCDATA)>
+<!ELEMENT akwaria (akwarium*)>
+<!ELEMENT akwarium (nazwa, pojemność, cena)>
+<!ELEMENT pojemność (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT choroby (nazwa, typ, objawy)>
+<!ELEMENT typ (#PCDATA)>
+<!ELEMENT objawy (objaw*)>
+<!ELEMENT objaw (#PCDATA)>
