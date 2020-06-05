@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="dane">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ryby">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="rodzina" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="ryba" maxOccurs="unbounded">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="gatunek" type="xsd:string"/>
+													<xsd:element name="pochodzenie" type="xsd:string"/>
+													<xsd:element name="śr_długość" type="xsd:integer"/>
+													<xsd:element name="woda">
+														<xsd:complexType>
+															<xsd:sequence>
+																<xsd:element name="wlk_akwarium" type="xsd:integer"/>
+																<xsd:element name="temp_min" type="xsd:integer"/>
+																<xsd:element name="temp_max" type="xsd:integer"/>
+																<xsd:element name="kwaśność_min" type="xsd:decimal"/>
+																<xsd:element name="kwaśność_max" type="xsd:decimal"/>
+															</xsd:sequence>
+															<xsd:attribute name="opis" type="xsd:string"/>
+														</xsd:complexType>
+													</xsd:element>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+									<xsd:attribute name="nazwa" type="xsd:string" use="required"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<xsd:element name="rośliny">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="roślina" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="nazwa" type="xsd:string"/>
+										<xsd:element name="wzrost" type="xsd:string"/>
+										<xsd:element name="woda">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="wlk_akwarium" type="xsd:integer"/>
+													<xsd:element name="temp_min" type="xsd:integer"/>
+													<xsd:element name="temp_max" type="xsd:integer"/>
+													<xsd:element name="kwaśność_min" type="xsd:decimal"/>
+													<xsd:element name="kwaśność_max" type="xsd:decimal"/>
+												</xsd:sequence>
+												<xsd:attribute name="opis" type="xsd:string"/>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<xsd:element name="akwaria">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="akwarium" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="nazwa" type="xsd:string"/>
+										<xsd:element name="pojemność" type="xsd:integer"/>
+										<xsd:element name="cena" type="xsd:decimal"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<xsd:element name="choroby">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="choroba" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="nazwa" type="xsd:string"/>
+										<xsd:element name="typ">
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:enumeration value="Zakaźna"/>
+													<xsd:enumeration value="Niezakaźna"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="objawy">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="objaw" type="xsd:string" maxOccurs="unbounded"/>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	
+	
+	</xsd:element>
+
+	
+
+</xsd:schema>
