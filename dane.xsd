@@ -45,7 +45,7 @@
 								<xsd:complexType>
 									<xsd:sequence>
 										<xsd:element name="nazwa" type="xsd:string"/>
-										<xsd:element name="wzrost"/>
+										<xsd:element name="wzrost">
 											<xsd:simpleType>
 												<xsd:restriction base="xsd:string">
 													<xsd:enumeration value="wolny"/>
@@ -53,6 +53,7 @@
 													<xsd:enumeration value="szybki"/>
 												</xsd:restriction>
 											</xsd:simpleType>
+										</xsd:element>
 										<xsd:element name="woda">
 											<xsd:complexType>
 												<xsd:sequence>
