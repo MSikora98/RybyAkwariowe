@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--<!DOCTYPE dane SYSTEM "dane.dtd">-->
+<?xml-stylesheet type="text/xsl" href="dane.xsl"?>
 <dane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="dane.xsd">
 	<ryby>
@@ -8,7 +9,7 @@
 				<gatunek>Bocja indochińska</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>23</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>364</wlk_akwarium>
 					<temp_min>21</temp_min>
 					<temp_max>26</temp_max>
@@ -21,7 +22,7 @@
 				<gatunek>Bocja wspaniała</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>25</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>648</wlk_akwarium>
 					<temp_min>24</temp_min>
 					<temp_max>30</temp_max>
@@ -34,7 +35,7 @@
 				<gatunek>Bocja mysia</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>8</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>150</wlk_akwarium>
 					<temp_min>23</temp_min>
 					<temp_max>28</temp_max>
@@ -49,7 +50,7 @@
 				<gatunek>Bojownik bezbronny</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>6</śr_długość>
-				<woda opis="">
+				<woda opis="kupione">
 					<wlk_akwarium>30</wlk_akwarium>
 					<temp_min>24</temp_min>
 					<temp_max>28</temp_max>
@@ -62,7 +63,7 @@
 				<gatunek>Gurami całujący</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>25</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>300</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>30</temp_max>
@@ -75,7 +76,7 @@
 				<gatunek>Gurami czekoladowe</gatunek>
 				<pochodzenie>Azja</pochodzenie>
 				<śr_długość>4</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>60</wlk_akwarium>
 					<temp_min>23</temp_min>
 					<temp_max>30</temp_max>
@@ -90,7 +91,7 @@
 				<gatunek>Akara błękitna</gatunek>
 				<pochodzenie>Ameryka Południowa</pochodzenie>
 				<śr_długość>15</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>240</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>28</temp_max>
@@ -103,7 +104,7 @@
 				<gatunek>Akarka paskowana</gatunek>
 				<pochodzenie>Ameryka Południowa</pochodzenie>
 				<śr_długość>7</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>54</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>26</temp_max>
@@ -116,7 +117,7 @@
 				<gatunek>Barwiak szmaragdowy</gatunek>
 				<pochodzenie>Afryka</pochodzenie>
 				<śr_długość>8</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>70</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>26</temp_max>
@@ -129,7 +130,7 @@
 				<gatunek>Czerwieniak dwuplamy</gatunek>
 				<pochodzenie>Afryka</pochodzenie>
 				<śr_długość>12</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>110</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>26</temp_max>
@@ -144,7 +145,7 @@
 				<gatunek>Modrook Gertrudy</gatunek>
 				<pochodzenie>Nowa Gwinea</pochodzenie>
 				<śr_długość>4</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>40</wlk_akwarium>
 					<temp_min>21</temp_min>
 					<temp_max>28</temp_max>
@@ -157,7 +158,7 @@
 				<gatunek>Tęczanka Boesemana</gatunek>
 				<pochodzenie>Nowa Gwinea</pochodzenie>
 				<śr_długość>11</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>110</wlk_akwarium>
 					<temp_min>25</temp_min>
 					<temp_max>29</temp_max>
@@ -170,7 +171,7 @@
 				<gatunek>Tęczanka Czerwona</gatunek>
 				<pochodzenie>Nowa Gwinea</pochodzenie>
 				<śr_długość>15</śr_długość>
-				<woda opis="">
+				<woda>
 					<wlk_akwarium>112</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>26</temp_max>
@@ -185,7 +186,7 @@
 		<roślina>
 			<nazwa>Anubias barteri</nazwa>
 			<wzrost>wolny</wzrost>
-			<woda opis="">
+			<woda>
 					<wlk_akwarium>100</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>28</temp_max>
@@ -197,7 +198,7 @@
 		<roślina>
 			<nazwa>Aegagropila linnaei</nazwa>
 			<wzrost>średni</wzrost>
-			<woda opis="">
+			<woda>
 					<wlk_akwarium>80</wlk_akwarium>
 					<temp_min>18</temp_min>
 					<temp_max>28</temp_max>
@@ -209,7 +210,7 @@
 		<roślina>
 			<nazwa>Nymphaea lotus</nazwa>
 			<wzrost>wolny</wzrost>
-			<woda opis="">
+			<woda>
 					<wlk_akwarium>200</wlk_akwarium>
 					<temp_min>22</temp_min>
 					<temp_max>28</temp_max>
@@ -221,7 +222,7 @@
 		<roślina>
 			<nazwa>Eleocharis parvula</nazwa>
 			<wzrost>szybki</wzrost>
-			<woda opis="">
+			<woda>
 					<wlk_akwarium>60</wlk_akwarium>
 					<temp_min>19</temp_min>
 					<temp_max>28</temp_max>

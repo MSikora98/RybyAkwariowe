@@ -24,7 +24,7 @@
 																<xsd:element name="kwaśność_min" type="xsd:decimal"/>
 																<xsd:element name="kwaśność_max" type="xsd:decimal"/>
 															</xsd:sequence>
-															<xsd:attribute name="opis" type="xsd:string"/>
+															<xsd:attribute name="opis" type="xsd:string" default="do sprzedaży"/>
 														</xsd:complexType>
 													</xsd:element>
 												</xsd:sequence>
@@ -45,7 +45,14 @@
 								<xsd:complexType>
 									<xsd:sequence>
 										<xsd:element name="nazwa" type="xsd:string"/>
-										<xsd:element name="wzrost" type="xsd:string"/>
+										<xsd:element name="wzrost"/>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:enumeration value="wolny"/>
+													<xsd:enumeration value="średni"/>
+													<xsd:enumeration value="szybki"/>
+												</xsd:restriction>
+											</xsd:simpleType>
 										<xsd:element name="woda">
 											<xsd:complexType>
 												<xsd:sequence>
@@ -55,7 +62,7 @@
 													<xsd:element name="kwaśność_min" type="xsd:decimal"/>
 													<xsd:element name="kwaśność_max" type="xsd:decimal"/>
 												</xsd:sequence>
-												<xsd:attribute name="opis" type="xsd:string"/>
+												<xsd:attribute name="opis" type="xsd:string" default="do sprzedaży"/>
 											</xsd:complexType>
 										</xsd:element>
 									</xsd:sequence>
